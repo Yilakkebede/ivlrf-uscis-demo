@@ -54,3 +54,8 @@ outputs/*.csv
 # System
 .DS_Store
 Thumbs.db
+nul
+NUL
+__pycache__/
+venv/
+*.pyc
