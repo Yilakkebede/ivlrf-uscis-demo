@@ -1,0 +1,21 @@
+
+PHD SURVIVAL MODEL RESULTS
+==========================
+Total Vehicles: 500
+Average Survival Probability: 0.504
+Median Remaining Life: 17.0 years
+High-Risk Vehicles (<50% survival): 288
+Estimated Regulatory Leakage: 15.0%
+
+COHORT ANALYSIS:
+  age_cohort  count    avg_age   avg_odometer  survival_rate  expected_remaining
+0        0-5     76   2.921053  100408.078947           0.95           25.725000
+1       5-10     99   6.838384  114412.515152           0.85           19.687374
+2      10-15    101  11.990099  106728.851485           0.70           12.606931
+3        15+    224  19.477679  110067.968750           0.50            5.261161
+
+MODELS APPLIED:
+1. Cohort Survival Projection (PhD Ch5, P33-34)
+2. Greenspan & Cohen Model (PhD Ch5, P35)
+3. Okamoto's Model P(t)=a^(t/(t-M)) (PhD Ch5, P35-36)
+4. Scrap Elasticity eta=-0.7 (PhD Ch5)
