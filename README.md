@@ -15,3 +15,6 @@ python run_pipeline.py --state CA --year 2023
 
 # 4. Launch interactive dashboard
 streamlit run apps/regulatory_dashboard.py
+
+## License
+MIT License. See LICENSE file.
